@@ -1,0 +1,18 @@
+{% extends "block.html.twig" %}
+
+{% block content %}
+
+
+{% if site_logo %}
+    <div class=''logo-content>
+            <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+            <img class="eddywally-logo" src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+            </a>
+{% endif %}
+
+{% if site_name %}
+            <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+{% endif %}
+
+    </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+name: 'Eddy Wally'
+description: 'Dit thema is gewoon geweldig'
+type: theme
+core: 8.
+
+libraries:
+- eddywally/global-css
+- eddywally/fontawesome
+- eddywally/global-js
+- eddywally/bootstrap
+- eddywally/bootstrap_cdn
+
+regions:
+  header: 'Header'
+  subheader_left: 'Subheader Left'
+  subheader_right: 'Subheader Right'
+  content: 'Main content'
+  side: 'Sidebar'
+  footer: 'Footer'

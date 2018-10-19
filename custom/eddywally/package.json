@@ -1,0 +1,32 @@
+{
+  "name": "eddywally",
+  "version": "1.0.0",
+  "description": "gulp workflow for Drupal 8 theming",
+  "main": "gulpfle.js",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "imagemin-pngquant": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^2.7.0",
+    "prettier": "^1.14.3"
+  }
+}
